@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <img src="logo.svg" alt="My logo." class="logo">
+    <div id="menu" class="popup-content">
+      <h1 class="title">Lucas11 Extension.</h1>
+      <h1 class="description">Welcome to my Extension!</h1>
+      <button id="calcstringbutton">Hello!</button>
+    </div>
+
+    <div id="calcstring" class="popup-content hidden">
+      <h1 class="title">CalcString</h1>
+      <h1 class="description">
+        CalcString is a program that I made for Hacklet that sums phases.
+        </br>
+        And now is renovated for Shipwrecked!
+      </h1>
+
+      <div id="input-container">
+        <input type="text" class="sum-input">
+        <p class="pcenter">+</p>
+        <input type="text" class="sum-input">
+      </div>
+
+      <button id="addInput">Add more words.</button>
+      <button id="calcstringbuttonsubmit">Sum the words</button>
+
+      <h1 class="description">Result</h1>
+      <p id="resultcalcstring" class="pcenter"></p>
+    </div>
+
+    <div id="error-content" class="hidden">
+      <p>Oh uh.</p>
+      <p>There seems to be a problem. Try restarting the page?</p>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="calcstring.js"></script>
+  </body>
+</html>

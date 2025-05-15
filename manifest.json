@@ -1,0 +1,10 @@
+{
+    "name": "Lucas11 Extension",
+    "description": "An extension for my YSWS project but now with new features and in a extension!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "logo.svg"
+    }
+  }
